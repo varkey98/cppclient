@@ -29,7 +29,8 @@ cc_binary(
 cc_import(
     name = "libmodsecurity",
     hdrs = glob(["modsecurity/**/*.h"]),
-    static_library = "modsecurity/libModSecurity.lib",
+    interface_library = "modsecurity/libModSecurity.lib",
+    shared_library = "modsecurity/libModSecurity.dll",
     visibility = ["//visibility:public"],
 )
 
