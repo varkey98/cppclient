@@ -1,0 +1,3 @@
+[submodule "ModsecurityClone"]
+	path = ModsecurityClone
+	url = https://github.com/owasp-modsecurity/ModSecurity.git
